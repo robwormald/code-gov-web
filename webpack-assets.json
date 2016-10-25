@@ -1,0 +1,11 @@
+{
+  "vendor": {
+    "js": "/site/presidential-innovation-fellows/code-gov-web/vendor.4eb909b4155802180d09.bundle.js"
+  },
+  "main": {
+    "js": "/site/presidential-innovation-fellows/code-gov-web/main.2d2a6e0645cae329a3b7.bundle.js"
+  },
+  "polyfills": {
+    "js": "/site/presidential-innovation-fellows/code-gov-web/polyfills.5e88b3e997cefa3d2788.bundle.js"
+  }
+}
