@@ -1,11 +1,11 @@
 {
   "vendor": {
-    "js": "/site/presidential-innovation-fellows/code-gov-web/vendor.4eb909b4155802180d09.bundle.js"
+    "js": "/vendor.4eb909b4155802180d09.bundle.js"
   },
   "main": {
-    "js": "/site/presidential-innovation-fellows/code-gov-web/main.2945fe4f4ff066a73edf.bundle.js"
+    "js": "/main.e25da179e9987c2ea513.bundle.js"
   },
   "polyfills": {
-    "js": "/site/presidential-innovation-fellows/code-gov-web/polyfills.5e88b3e997cefa3d2788.bundle.js"
+    "js": "/polyfills.5e88b3e997cefa3d2788.bundle.js"
   }
 }

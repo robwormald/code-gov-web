@@ -8,6 +8,17 @@
   <title>Code.gov</title>
   <meta name="description" content="Code.gov is a platform designed to improve access to the federal government’s custom-developed software.">
 
+  <meta property="og:image:url" content="assets/img/og.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="600">
+
+  <meta property="twitter:image:src" content="https://code.gov/assets/img/og.jpg">
+  <meta property="twitter:image:width" content="1200">
+  <meta property="twitter:image:height" content="600">
+
+  <link rel="image_src" type="image/jpeg" href="https://code.gov/assets/img/og.jpg">
+
   <link rel="stylesheet" href="assets/fonts.css">
   <link rel="stylesheet" href="assets/uswds.min.css">
 
@@ -15,23 +26,23 @@
 
   
   <!-- Configured Head Tags  -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/site/presidential-innovation-fellows/code-gov-web/assets/img/favicons/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/site/presidential-innovation-fellows/code-gov-web/assets/img/favicons/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/site/presidential-innovation-fellows/code-gov-web/assets/img/favicons/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/site/presidential-innovation-fellows/code-gov-web/assets/img/favicons/favicon-144.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/site/presidential-innovation-fellows/code-gov-web/assets/img/favicons/favicon-192.png">
-	<link rel="icon" href="/site/presidential-innovation-fellows/code-gov-web/assets/img/favicons/favicon.ico">
-	<link rel="manifest" href="/site/presidential-innovation-fellows/code-gov-web/assets/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicons/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicons/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicons/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicons/favicon-144.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/favicon-192.png">
+	<link rel="icon" href="/assets/img/favicons/favicon.ico">
+	<link rel="manifest" href="/assets/manifest.json">
 	<meta name="msapplication-TileColor" content="#00bcd4">
-	<meta name="msapplication-TileImage" content="/site/presidential-innovation-fellows/code-gov-web/assets/img/favicons/favicon-144.png">
+	<meta name="msapplication-TileImage" content="/assets/img/favicons/favicon-144.png">
 	<meta name="theme-color" content="#00bcd4">
   
 
   <!-- base url -->
-  <base href="/site/presidential-innovation-fellows/code-gov-web/">
+  <base href="/">
 
   
-<script src="/site/presidential-innovation-fellows/code-gov-web/polyfills.5e88b3e997cefa3d2788.bundle.js" type="text/javascript" defer></script><script src="/site/presidential-innovation-fellows/code-gov-web/vendor.4eb909b4155802180d09.bundle.js" type="text/javascript" defer></script><script src="/site/presidential-innovation-fellows/code-gov-web/main.2945fe4f4ff066a73edf.bundle.js" type="text/javascript" defer></script></head>
+<script src="/polyfills.5e88b3e997cefa3d2788.bundle.js" type="text/javascript" defer></script><script src="/vendor.4eb909b4155802180d09.bundle.js" type="text/javascript" defer></script><script src="/main.e25da179e9987c2ea513.bundle.js" type="text/javascript" defer></script></head>
 
 <body>
   
@@ -39,28 +50,20 @@
   <app>
     <div class="loading" style="background-color: #485568; bottom: 0; left: 0; position: fixed; right: 0; top: 0">
       <img alt="United States of America Flag" width="44px" height="30px" src="assets/img/flag.svg" style="left: 50%; margin: -15px 0 0 -22px; position: absolute; top: 50%;">
+      <noscript>
+        <div class="no-js-content" style="left: 50%; margin-left: -20em; width: 40em; position: absolute; text-align: center; top: 50%;">
+          <h1 style="color: #ffffff; font-size: 1.5em">Looks like You Don’t Have Javascript Enabled</h1>
+          <p style="color: #ffffff;">
+            Code.gov is built on the latest web technology using Javascript. To
+            use Code.gov, please enable Javascript so we can share all of the
+            wonderful open source projects the Federal Government has to offer.
+          </p>
+        </div>
+      </noscript>
     </div>
   </app>
 
   
-  <script>
-    var submitted=false;
-
-    function showConfirmation(){
-      var emailField  = document.getElementById('email');
-      var confirmationEl = document.getElementById("confirmation");
-
-      if(emailField.validity && !emailField.validity.valid) {
-        confirmationEl.innerHTML='Please enter a valid email.';
-      }
-      else {
-        submitted=true;
-        confirmationEl.innerHTML='Thanks for joining the code.gov mailing list, ' + emailField.value + '!';
-
-        emailField.value=' ';
-      }
-    }
-  </script>
 
 
 </body>
